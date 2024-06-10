@@ -1,2 +1,10 @@
-package: app.name
-entry: main.coffee
+manifest:
+  package: test.app
+  private: false
+exec:
+  entry: main.coffee
+assets:
+  icon: assets/icon.png
+  folder: ./assets
+install:
+  requirements: []
