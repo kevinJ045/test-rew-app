@@ -7,4 +7,5 @@ assets:
   icon: assets/icon.png
   folder: ./assets
 install:
-  requirements: []
+  requirements:
+    - '@rewpkgs/rew.gtk'
